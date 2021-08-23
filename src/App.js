@@ -3,9 +3,17 @@ import './App.css';
 
 function App() {
   return (
-    <div>
-      
-      
+    <div className="app">
+      <header className="app-header">
+      <h4>Just Tattoo</h4>
+      </header>
+      <div className="app-grid">
+        <div>loremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem</div>
+        <div>loremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem</div>
+        <div>loremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem</div>
+        <div>loremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem</div>
+        
+      </div>
     </div>
   );
 }
