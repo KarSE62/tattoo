@@ -1,0 +1,15 @@
+<div className="app-grid">
+        <TattooItem title="แขนเท่ห์ๆ" img="/img/tattoo-01-small.jpg" />
+        <TattooItem title="มือเท่ห์ๆ" img="/img/tattoo-02-small.jpg" />
+        <TattooItem title="คอเท่ห์ๆ" img="/img/tattoo-03-small.jpg" />
+        <TattooItem title="หลังเท่ห์ๆ" img="/img/tattoo-04-small.jpg" />
+        </div> 
+
+
+        const {title, img} = props;
+    return(
+    <div className="tattoo-item">
+        <img src={img} />
+        <h4>{title}</h4>
+    </div>
+  );

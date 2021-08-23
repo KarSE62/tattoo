@@ -1,10 +1,11 @@
 import React from "react"
 
-function TattooItem(){
+function TattooItem(props){
+  const {tattoo} = props;
     return(
     <div className="tattoo-item">
-        <img src="/img/tattoo-01-small.jpg" />
-        <h4>ลายไฟ</h4>
+        <img src={tattoo.img} />
+        <h4>{tattoo.title}</h4>
     </div>
   );
 }
