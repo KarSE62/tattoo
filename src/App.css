@@ -6,6 +6,11 @@
   align-items: center;
 }
 
+.app-header-logo{
+  height: 44px;
+}
+
+
 .app-grid{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -14,4 +19,10 @@
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+  padding: 30px;
+}
+
+.tattoo-item img{
+  display: block;
+  width: 100%;
 }
