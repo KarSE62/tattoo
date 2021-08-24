@@ -13,3 +13,6 @@
         <h4>{title}</h4>
     </div>
   );
+
+
+  <button onClick={()=>{onImgOpenClick(tattoos[3])}}>กดหน่อยครับ</button>

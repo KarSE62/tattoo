@@ -1,13 +1,13 @@
 import './TattooPost.css';
 
-function TattooPost() {
-    
+function TattooPost(props) {
+    const {tattoo, onBgClick} = props ;
     return(
         <div className="tattoo-post">
-            <div className="tattoo-bg" />
+            <div className="tattoo-bg" onClick={onBgClick}/>
                 <div className="tattoo-post-content">
-                    <img src="/img/tattoo-01-large.jpg" />
-                    <h4>ลายไฟ</h4>
+                    <img src={tattoo.fullimg}/>
+                    <h4>{tattoo.title}</h4>
                 </div>
             </div>
         
