@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import AppHeader from './component/AppHeader';
 import TattooItem from './component/TattooItem';
@@ -14,8 +14,7 @@ function App() {
       <AppHeader />
       <div className="app-grid">
         {tattooElements}
-        
-        </div> 
+      </div> 
         
     </div>
   );

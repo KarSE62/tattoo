@@ -1,4 +1,5 @@
 import React from "react"
+import './TattooItem.css'
 
 function TattooItem(props){
   const {tattoo} = props;
